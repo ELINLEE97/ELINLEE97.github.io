@@ -9,10 +9,11 @@
     <script
       src="https://kit.fontawesome.com/4432655a2a.js"
       crossorigin="anonymous"
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0, user-scalable=no, target-densitydpi=medium-dpi" />
     ></script>
   </head>
-  <body>
-    <div class="status-bar">
+  <body class="chats_body">
+    <div class="status-barr">
       <div class="status-bar__column">
         <span class="status-bar__clok">18:05</span>
       </div>
@@ -25,7 +26,7 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
-    <header class="header">
+    <header class="headerr">
       <div class="header__header-column">
         <div class="header__back-btn">
           <a href="index.html"><i class="fas fa-arrow-left"></i></a>
@@ -37,33 +38,32 @@
         <span class="header__icon"><i class="fas fa-bars"></i></span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
-        <spna class="chat_timestpamp">Wednesday, january 1, 2020</spna>
-        <li class="inconming-message message">
-          <img src="images/image1.jpg" class="g-avata message__avata" /
-          width="70" height="70">
+        <spna class="chat__timestpamp">Wednesday, january 1, 2020</spna>
+        <li class="incoming-message message">
+          <img src="images/image1.jpg" class="message__avata" />
           <div class="message__content">
             <span class="message__author">Best Friend</span>
-            <div class="message__bubble">
+            <div class="message__bubble-one">
               Congrats I love you!
             </div>
           </div>
-          <span class="message__timestamp"></span>
+          <span class="message__timestamp-one">15:19</span>
         </li>
-        <li class="inconming-message message">
+        <li class="sent-message message">
+          <span class="message__timestamp-two">15:19</span>
           <div class="message__content">
-            <span class="message__timestamp"></span>
-            <div class="message__bubble">
+            <div class="message__bubble-two">
               Thank you!
             </div>
           </div>
         </li>
       </ul>
     </main>
-    <div class="chat_write">
+    <div class="chat__write">
       <div class="chat__write-column">
-        <i class="far fa-plus-square"></i>
+        <span class="chat__write-icon"><i class="far fa-plus-square"></i></span>
       </div>
       <div class="chat__write-column">
         <input
